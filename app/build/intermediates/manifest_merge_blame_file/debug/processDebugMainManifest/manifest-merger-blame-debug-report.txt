@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emailapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <application
+11-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:5:5-46:19
+12        android:allowBackup="true"
+12-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\vigil\.gradle\caches\transforms-3\24b92bd19b2e6c0ffdf55824ee6ca9ee\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="true"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:8:9-54
+18        android:icon="@drawable/new_icon"
+18-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:9:9-42
+19        android:label="@string/app_name"
+19-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@drawable/new_icon"
+20-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:10:9-47
+21        android:supportsRtl="true"
+21-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.EmailApplication" >
+23-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:13:9-54
+24        <activity
+24-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:15:9-19:61
+25            android:name="com.example.emailapplication.RegisterActivity"
+25-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:16:13-45
+26            android:exported="false"
+26-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:17:13-37
+27            android:label="@string/title_activity_register"
+27-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:18:13-60
+28            android:theme="@style/Theme.EmailApplication" />
+28-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:19:13-58
+29        <activity
+29-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:20:9-24:61
+30            android:name="com.example.emailapplication.MainActivity"
+30-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:21:13-41
+31            android:exported="false"
+31-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:22:13-37
+32            android:label="MainActivity"
+32-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:23:13-41
+33            android:theme="@style/Theme.EmailApplication" />
+33-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:24:13-58
+34        <activity
+34-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:25:9-29:61
+35            android:name="com.example.emailapplication.ViewMailActivity"
+35-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:26:13-45
+36            android:exported="false"
+36-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:27:13-37
+37            android:label="@string/title_activity_view_mail"
+37-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:28:13-61
+38            android:theme="@style/Theme.EmailApplication" />
+38-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:29:13-58
+39        <activity
+39-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:30:9-34:61
+40            android:name="com.example.emailapplication.SendMailActivity"
+40-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:31:13-45
+41            android:exported="false"
+41-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:32:13-37
+42            android:label="@string/title_activity_send_mail"
+42-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:33:13-61
+43            android:theme="@style/Theme.EmailApplication" />
+43-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:34:13-58
+44        <activity
+44-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:35:9-45:20
+45            android:name="com.example.emailapplication.LoginActivity"
+45-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:36:13-42
+46            android:exported="true"
+46-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:37:13-36
+47            android:label="@string/app_name"
+47-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:38:13-45
+48            android:theme="@style/Theme.EmailApplication" >
+48-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:39:13-58
+49            <intent-filter>
+49-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:41:17-69
+50-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:43:17-77
+52-->D:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <service
+56-->[androidx.room:room-runtime:2.5.0] C:\Users\vigil\.gradle\caches\transforms-3\9687c46b1aa9f246b28d9f81429d2a1e\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+57            android:name="androidx.room.MultiInstanceInvalidationService"
+57-->[androidx.room:room-runtime:2.5.0] C:\Users\vigil\.gradle\caches\transforms-3\9687c46b1aa9f246b28d9f81429d2a1e\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+58            android:directBootAware="true"
+58-->[androidx.room:room-runtime:2.5.0] C:\Users\vigil\.gradle\caches\transforms-3\9687c46b1aa9f246b28d9f81429d2a1e\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+59            android:exported="false" />
+59-->[androidx.room:room-runtime:2.5.0] C:\Users\vigil\.gradle\caches\transforms-3\9687c46b1aa9f246b28d9f81429d2a1e\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a099fec2433dfc5890a5dbfefa12036f\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a099fec2433dfc5890a5dbfefa12036f\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\a099fec2433dfc5890a5dbfefa12036f\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\c7ab6c5f117429e2d3291e3fd1649671\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
+65            android:name="androidx.activity.ComponentActivity"
+65-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\c7ab6c5f117429e2d3291e3fd1649671\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\c7ab6c5f117429e2d3291e3fd1649671\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
+67
+68        <provider
+68-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+70            android:authorities="com.example.emailapplication.androidx-startup"
+70-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+71            android:exported="false" >
+71-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+75        </provider>
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\vigil\.gradle\caches\transforms-3\33f650b701bc37c4481b26ef6a8a1605\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>
